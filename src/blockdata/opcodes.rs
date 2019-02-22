@@ -745,6 +745,8 @@ pub static OP_TRUE: All = all::OP_PUSHNUM_1;
 pub static OP_CLTV: All = all::OP_NOP2;
 /// check sequence verify
 pub static OP_CSV: All = all::OP_NOP3;
+/// add operation for libbolt
+pub static OP_BOLT: All = all::OP_NOP4;
 
 /// Broad categories of opcodes with similar behavior
 #[derive(Copy, Clone, PartialEq, Eq, Debug)]
